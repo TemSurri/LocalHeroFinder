@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
 import RoleSelection from "@/components/RoleSelection";
 import Logo from "@/components/Logo";
+import MapView from "@/components/MapView";
+import SOSFlow from "@/components/SOSflow";
 
 const Index = () => {
   const navigate = useNavigate();
@@ -25,11 +27,11 @@ const Index = () => {
   }
 
   if (currentView === "sos") {
-    return <h1>SOS flow</h1>;
+    return <SOSFlow onBack={() => setCurrentView("landing")} onComplete={() => setCurrentView("map")} />;
   }
 
   if (currentView === "map") {
-    return <h1>jj</h1>;
+    return <MapView onBack={() => setCurrentView("landing")}/>;
   }
 
   return (

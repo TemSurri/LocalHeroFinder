@@ -9,6 +9,7 @@ import { toast } from "sonner";
 import SOSFlow from "./SOSflow";
 
 import Logo from "./Logo";
+import MapView from "./MapView";
 
 interface RequesterDashboardProps {
   user: User;
@@ -26,7 +27,11 @@ const RequesterDashboard = ({ user }: RequesterDashboardProps) => {
 
   if (showMap) {
     return (
-      <p>map view</p>
+      <MapView
+        onBack={() => {
+          setShowMap(false);
+        }}
+      />
     );
   }
 
