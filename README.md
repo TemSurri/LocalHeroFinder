@@ -7,6 +7,7 @@
 
 It’s designed as a proof-of-concept MVP to demonstrate real-time geolocation, role-based user authentication, and responder availability management using **Supabase**, **React**.
 
+WEBSITE WORKS !!!
 
 https://localherofinder.vercel.app/
 ---
