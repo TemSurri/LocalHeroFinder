@@ -120,7 +120,7 @@ CREATE POLICY "Requesters can view available responders"
     availability_status = true
   );
 
--- RLS Policies for incidents
+-- creating all tha RLS Policiy stuff for incidents
 CREATE POLICY "Requesters can view their own incidents"
   ON public.incidents FOR SELECT
   USING (auth.uid() = requester_id);

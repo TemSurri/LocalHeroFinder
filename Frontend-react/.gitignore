@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# doesnt matter but feels bad to push .env even thought it doenst matter for this
+
+.env/
+.env
+.env.local
