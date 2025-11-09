@@ -1,4 +1,4 @@
-# 🦸‍♀️ Local Hero Finder
+# Local Hero Finder
 
 **Local Hero Finder** is a community-driven emergency assistance platform built to connect people in urgent need with nearby trained responders, such as those certified in CPR, first aid, or basic emergency care.  
 
@@ -7,7 +7,8 @@
 
 It’s designed as a proof-of-concept MVP to demonstrate real-time geolocation, role-based user authentication, and responder availability management using **Supabase**, **React**.
 Didn't have enought time to implement all features or debug everything:
-- SMS and email authentification problem on vercel with Sign up and Sign in ( works on local but spotty on vercel )
+
+- Deployed but only works if you already have an acoount lol since theres SMS and email authentification problem on vercel with Sign up and Sign in ( works on local but spotty on vercel )
 
 
 https://localherofinder.vercel.app/
